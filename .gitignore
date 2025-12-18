@@ -4,6 +4,7 @@ backend/.env
 backend/__pycache__/
 backend/*.py[cod]
 backend/.pytest_cache/
+*.pyc
 
 # --- Frontend / Node ---
 frontend/node_modules/
