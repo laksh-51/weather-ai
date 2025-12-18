@@ -1,0 +1,17 @@
+:root {
+    --color-bg-primary: #fafafa;   /* Main Background */
+    --color-card-bg: #ffffff;      /* Card Surface */
+    --color-accent-primary: #484b6a; /* Deep Slate (Titles/Buttons) */
+    --color-text-secondary: #9394a5; /* Muted Slate (Subtitles) */
+    --color-border: #d2d3db;
+}
+
+body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-accent-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
